@@ -1,6 +1,6 @@
 <?php
 
-namespace Arky\Sales\Interfaces;
+namespace Kartikey\Sales\Interfaces;
 
 interface Sequencer
 {

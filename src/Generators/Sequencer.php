@@ -1,8 +1,8 @@
 <?php
 
-namespace Arky\Sales\Generators;
+namespace Kartikey\Sales\Generators;
 
-use Arky\Sales\Interfaces\Sequencer as SequencerContract;
+use Kartikey\Sales\Interfaces\Sequencer as SequencerContract;
 
 class Sequencer implements SequencerContract
 {

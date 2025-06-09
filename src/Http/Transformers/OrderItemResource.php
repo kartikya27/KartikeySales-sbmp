@@ -1,6 +1,6 @@
 <?php
 
-namespace Arky\Sales\Http\Transformers;
+namespace Kartikey\Sales\Http\Transformers;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 

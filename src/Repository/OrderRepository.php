@@ -1,13 +1,13 @@
 <?php
 
-namespace Arky\Sales\Repository;
+namespace Kartikey\Sales\Repository;
 
 use Stegback\Core\Eloquent\Repository;
-use Arky\Sales\Models\Order as OrderModel;
+use Kartikey\Sales\Models\Order as OrderModel;
 use Illuminate\Container\Container;
-use Arky\Sales\Generators\OrderSequencer;
-use Arky\Sales\Interfaces\OrderItem;
-use Arky\Sales\Models\OrderVendor;
+use Kartikey\Sales\Generators\OrderSequencer;
+use Kartikey\Sales\Interfaces\OrderItem;
+use Kartikey\Sales\Models\OrderVendor;
 use GuzzleHttp\Psr7\Request;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Event;

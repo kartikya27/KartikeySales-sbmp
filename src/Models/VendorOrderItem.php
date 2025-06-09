@@ -1,9 +1,9 @@
 <?php
 
-namespace Arky\Sales\Models;
+namespace Kartikey\Sales\Models;
 
-use Arky\Sales\Interfaces\OrderVendor;
-use Arky\Sales\Models\OrderItem;
+use Kartikey\Sales\Interfaces\OrderVendor;
+use Kartikey\Sales\Models\OrderItem;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 

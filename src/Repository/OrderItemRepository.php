@@ -1,10 +1,10 @@
 <?php
 
-namespace Arky\Sales\Repository;
+namespace Kartikey\Sales\Repository;
 
 use Stegback\Core\Eloquent\Repository;
-use Arky\Sales\Models\Order;
-use Arky\Sales\Models\OrderItem;
+use Kartikey\Sales\Models\Order;
+use Kartikey\Sales\Models\OrderItem;
 
 class OrderItemRepository extends Repository
 {
@@ -19,7 +19,7 @@ class OrderItemRepository extends Repository
     /**
      * Manage inventory.
      *
-     * @param  \Arky\Sales\Contracts\OrderItem  $orderItem
+     * @param  \Kartikey\Sales\Contracts\OrderItem  $orderItem
      * @return void
      */
     public function manageInventory($orderItem)

@@ -1,10 +1,10 @@
 {
-    "name": "stegback/sales",
+    "name": "kartikey/sales",
     "description": "NA",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Arky\\Sales\\": "src/"
+            "Kartikey\\Sales\\": "src/"
         }
     },
     "authors": [

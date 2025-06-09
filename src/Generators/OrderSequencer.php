@@ -1,9 +1,9 @@
 <?php
 
-namespace Arky\Sales\Generators;
+namespace Kartikey\Sales\Generators;
 
-use Arky\Sales\Generators\Sequencer;
-use Arky\Sales\Models\Order;
+use Kartikey\Sales\Generators\Sequencer;
+use Kartikey\Sales\Models\Order;
 
 class OrderSequencer extends Sequencer
 {

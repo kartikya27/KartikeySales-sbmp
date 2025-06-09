@@ -1,8 +1,8 @@
 <?php
 
-namespace Arky\Sales\Models;
+namespace Kartikey\Sales\Models;
 
-use Arky\Sales\Interfaces\OrderPayment as OrderPaymentInterface;
+use Kartikey\Sales\Interfaces\OrderPayment as OrderPaymentInterface;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 

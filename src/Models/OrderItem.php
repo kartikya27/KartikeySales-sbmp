@@ -1,8 +1,8 @@
 <?php
 
-namespace Arky\Sales\Models;
+namespace Kartikey\Sales\Models;
 
-use Arky\Sales\Interfaces\OrderItem as InterfacesOrderItem;
+use Kartikey\Sales\Interfaces\OrderItem as InterfacesOrderItem;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;

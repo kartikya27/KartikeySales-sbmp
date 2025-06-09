@@ -1,8 +1,8 @@
 <?php
 
-namespace Arky\Sales\Repository;
+namespace Kartikey\Sales\Repository;
 
-use Arky\Sales\Interfaces\OrderPayment;
+use Kartikey\Sales\Interfaces\OrderPayment;
 use Illuminate\Container\Container;
 use Stegback\Core\Eloquent\Repository;
 

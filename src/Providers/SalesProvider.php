@@ -1,12 +1,12 @@
 <?php
 
-namespace Arky\Sales\Providers;
+namespace Kartikey\Sales\Providers;
 
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Route;
-use Arky\Sales\Models\Order;
-use Arky\Sales\Observers\OrderObserver;
+use Kartikey\Sales\Models\Order;
+use Kartikey\Sales\Observers\OrderObserver;
 
 class SalesProvider extends ServiceProvider
 {

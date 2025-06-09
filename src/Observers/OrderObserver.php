@@ -1,8 +1,8 @@
 <?php
 
-namespace Arky\Sales\Observers;
+namespace Kartikey\Sales\Observers;
 
-use Arky\Sales\Models\Order;
+use Kartikey\Sales\Models\Order;
 use Illuminate\Support\Facades\Log;
 
 class OrderObserver

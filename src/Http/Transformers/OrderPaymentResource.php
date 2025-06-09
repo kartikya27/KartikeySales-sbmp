@@ -1,8 +1,8 @@
 <?php
 
-namespace Arky\Sales\Http\Transformers;
+namespace Kartikey\Sales\Http\Transformers;
 
-use Arky\Sales\Models\Order;
+use Kartikey\Sales\Models\Order;
 use Illuminate\Http\Resources\Json\JsonResource;
 
 class OrderPaymentResource extends JsonResource

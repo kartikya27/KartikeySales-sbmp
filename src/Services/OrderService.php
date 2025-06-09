@@ -1,8 +1,8 @@
 <?php
 
-namespace Arky\Sales\Services;
+namespace Kartikey\Sales\Services;
 
-use Arky\Sales\Models\OrderVendor;
+use Kartikey\Sales\Models\OrderVendor;
 use Illuminate\Support\Facades\DB;
 
 class OrderService

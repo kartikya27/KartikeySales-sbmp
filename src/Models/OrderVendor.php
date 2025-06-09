@@ -1,12 +1,12 @@
 <?php
 
-namespace Arky\Sales\Models;
+namespace Kartikey\Sales\Models;
 
-use Arky\Sales\Interfaces\OrderVendor as InterfacesOrderVendor;
+use Kartikey\Sales\Interfaces\OrderVendor as InterfacesOrderVendor;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Stegback\Core\Models\Channel;
-use Arky\Sales\Models\VendorOrderItem;
+use Kartikey\Sales\Models\VendorOrderItem;
 use Stegback\Seller\Models\Seller;
 
 class OrderVendor extends Model implements InterfacesOrderVendor

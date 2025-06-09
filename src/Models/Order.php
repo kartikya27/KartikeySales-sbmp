@@ -1,14 +1,14 @@
 <?php
 
-namespace Arky\Sales\Models;
+namespace Kartikey\Sales\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Database\Eloquent\Relations\HasOne;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Arky\Sales\Models\OrderAddres;
-use Arky\Sales\Models\OrderAddresUse;
-use Arky\Sales\Models\OrderVendor as ModelsOrderVendor;
+use Kartikey\Sales\Models\OrderAddres;
+use Kartikey\Sales\Models\OrderAddresUse;
+use Kartikey\Sales\Models\OrderVendor as ModelsOrderVendor;
 use Kartikey\Support\Models\SupportQuery;
 use Kartikey\Support\Models\SupportTicket;
 use Stegback\Checkout\Models\CartAddress;

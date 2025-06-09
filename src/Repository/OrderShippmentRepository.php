@@ -1,9 +1,9 @@
 <?php
 
-namespace Arky\Sales\Repository;
+namespace Kartikey\Sales\Repository;
 
-use Arky\Sales\Models\OrderShippment;
-use Arky\Sales\Models\OrderShippmentItem;
+use Kartikey\Sales\Models\OrderShippment;
+use Kartikey\Sales\Models\OrderShippmentItem;
 use Illuminate\Container\Container;
 use Stegback\Core\Eloquent\Repository;
 
