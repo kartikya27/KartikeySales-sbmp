@@ -12,7 +12,7 @@ use Kartikey\Sales\Models\OrderVendor as ModelsOrderVendor;
 use Kartikey\Support\Models\SupportQuery;
 use Kartikey\Support\Models\SupportTicket;
 use Stegback\Checkout\Models\CartAddress;
-use Stegback\Core\Models\Channel;
+use Kartikey\Core\Models\Channel;
 use Stegback\Sales\Models\OrderVendor;
 use Stegback\User\Models\User;
 

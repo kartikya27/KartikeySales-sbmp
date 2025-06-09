@@ -5,7 +5,7 @@ namespace Kartikey\Sales\Models;
 use Kartikey\Sales\Interfaces\OrderVendor as InterfacesOrderVendor;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Stegback\Core\Models\Channel;
+use Kartikey\Core\Models\Channel;
 use Kartikey\Sales\Models\VendorOrderItem;
 use Stegback\Seller\Models\Seller;
 

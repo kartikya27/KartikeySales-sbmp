@@ -4,7 +4,7 @@ namespace Kartikey\Sales\Repository;
 
 use Kartikey\Sales\Interfaces\OrderPayment;
 use Illuminate\Container\Container;
-use Stegback\Core\Eloquent\Repository;
+use Kartikey\Core\Eloquent\Repository;
 
 class OrderPaymentRepository extends Repository
 {

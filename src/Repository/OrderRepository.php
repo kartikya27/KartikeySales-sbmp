@@ -2,7 +2,7 @@
 
 namespace Kartikey\Sales\Repository;
 
-use Stegback\Core\Eloquent\Repository;
+use Kartikey\Core\Eloquent\Repository;
 use Kartikey\Sales\Models\Order as OrderModel;
 use Illuminate\Container\Container;
 use Kartikey\Sales\Generators\OrderSequencer;
@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Event;
 use Illuminate\Support\Facades\Log;
 use Stegback\Checkout\Models\CartItem;
-use Stegback\Core\Models\Coupon;
-use Stegback\Core\Models\CouponUsage;
+use Kartikey\Core\Models\Coupon;
+use Kartikey\Core\Models\CouponUsage;
 use Stripe\Customer;
 
 class OrderRepository extends Repository

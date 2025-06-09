@@ -5,7 +5,7 @@ namespace Kartikey\Sales\Repository;
 use Kartikey\Sales\Models\OrderShippment;
 use Kartikey\Sales\Models\OrderShippmentItem;
 use Illuminate\Container\Container;
-use Stegback\Core\Eloquent\Repository;
+use Kartikey\Core\Eloquent\Repository;
 
 class OrderShippmentRepository extends Repository
 {

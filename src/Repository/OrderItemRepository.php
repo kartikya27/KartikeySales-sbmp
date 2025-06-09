@@ -2,7 +2,7 @@
 
 namespace Kartikey\Sales\Repository;
 
-use Stegback\Core\Eloquent\Repository;
+use Kartikey\Core\Eloquent\Repository;
 use Kartikey\Sales\Models\Order;
 use Kartikey\Sales\Models\OrderItem;
 
