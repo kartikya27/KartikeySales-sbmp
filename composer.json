@@ -1,0 +1,16 @@
+{
+    "name": "stegback/sales",
+    "description": "NA",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Arky\\Sales\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kartik Maandothiya"
+        }
+    ],
+    "require": {}
+}
